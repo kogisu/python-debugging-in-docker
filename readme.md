@@ -27,7 +27,7 @@ The above will wait for the client (in this case vscode) to complete the tcp han
 
 To run, simply run
 
-```
+```sh
 make run
 ```
 
@@ -54,3 +54,7 @@ To ensure that debugpy is running, the output in terminal should say
 ```sh
 collecting...
 ```
+
+## Launching Debugger
+
+Through VSCode, go to 'Run and Debug' --> run "Python: Docker Attach"
